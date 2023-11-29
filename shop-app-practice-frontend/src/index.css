@@ -1,0 +1,105 @@
+/* CSS FOR ALL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #f1f1f1;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+/* HEADER CSS */
+header {
+  background: #fff;
+}
+/* Link CSS (title, login, signup, logout) */
+header a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Navbar CSS */
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+.titleSection {
+  /**background-color: aqua;*/
+  width: 60%;
+}
+.titleHeader {
+  font-size: 2.5rem;
+  
+}
+.welcomeMsg {
+  font-size: 0.9rem;
+}
+.logSearchSection {
+  /**background-color: red;*/
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.userData {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+.login, .signup {
+  align-items: center;
+  margin-right: 20px;
+  font-size: 1.2rem;
+}
+.login:hover, .signup:hover {
+  text-decoration: underline;
+}
+.cartIcon {
+  width: 20px;
+}
+
+
+/* Home Page */
+.homeHeader {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.homeCard {
+  background-color: #fff;
+  margin-bottom: 50px;
+  width: 70%;
+  margin-left: 15%;
+}
+.homeCardHeader {
+  text-align: center;
+  text-decoration: none;
+}
+.homeCardImg {
+  height: 100%;
+  width: 100%;
+  vertical-align: bottom;
+}
+.clickableCard {
+  text-decoration: none;
+  color: black;
+}
+
+/*CSS For shoping cards*/
+.itemCard {
+  background-color: white;
+  margin-bottom: 10px;
+  width: 70%;
+  margin-left: 15%;
+  height: 60%;
+}
+.itemImg {
+  width: 100%;
+}
+.price {
+  font-size: 1.6rem;
+}
+.itemTitle {
+  font-size: 1.8rem;
+}
